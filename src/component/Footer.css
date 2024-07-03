@@ -1,0 +1,17 @@
+.footer {
+  width: auto;
+  height: 80px;
+  background-color: #a8b2ff;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border-top: 0.3rem solid white;
+
+  & p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+  }
+}

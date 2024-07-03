@@ -1,0 +1,39 @@
+:root {
+  --bg-color: #f4f3ff;
+  --btn-color: #646cff;
+  --dark-color: #242424;
+  --helper-color: #99b9ff;
+}
+
+
+.container {
+  max-width: 140rem;
+  display: flex;
+  padding: 4.2rem 2.4rem;
+  justify-content: space-evenly;
+
+  & li{
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+    
+    
+  }
+ & li:hover{
+  border-bottom: 3.5px solid var(--btn-color);
+  color: var(--btn-color);
+
+ }
+                
+}
+
+
+ul{
+    display: flex;
+    gap: 3.2rem;
+}
+
+.logo{
+  font-size: 30px;
+  ;
+}
+
